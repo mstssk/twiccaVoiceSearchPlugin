@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!--
+		<string name="market_uri">market://search?q=pname:com.google.android.voicesearch</string>
+	-->
+	<string name="market_uri">market://search?q=pname:com.google.android.voicesearch.x OR pname:com.google.android.voicesearch.d</string>
+	<string name="key_language">LANGUAGE</string>
+	<string name="key_insert_space">INSERT_SPACE</string>
+	<string name="key_confirm_dialog">CONFIRM_DIALOG</string>
+    <item name="default_insert_space" type="attr" format="boolean">false</item>
+	<item name="default_confirm_dialog" format="boolean" type="attr">false</item>
+</resources>

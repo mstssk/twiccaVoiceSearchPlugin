@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="jp.mstssk.twiccaplugins.voice_recognizer_search"
+	android:versionName="0.1.4" android:versionCode="5">
+	<application android:icon="@drawable/voice_search_plugin_icon"
+		android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		android:debuggable="false">
+		<activity android:label="@string/plugin_name" android:name=".SettingActivity"
+			android:configChanges="orientation">
+			<intent-filter>
+				<action android:name="jp.r246.twicca.ACTION_PLUGIN_SETTINGS"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		<activity android:label="@string/plugin_name" android:name=".VoiceRecognizerActivity"
+			android:configChanges="orientation">
+			<intent-filter>
+				<action android:name="jp.r246.twicca.ACTION_PICK_TREND"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-sdk android:minSdkVersion="4" />
+
+</manifest>

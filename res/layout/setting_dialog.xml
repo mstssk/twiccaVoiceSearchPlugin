@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:id="@+id/SettingDialogLayout"
+    android:orientation="vertical" android:paddingLeft="10px"
+    android:paddingRight="10px" android:minWidth="300px"
+    android:layout_height="wrap_content" android:layout_gravity="center_vertical">
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:id="@+id/SettingDialogTitle"
+        android:orientation="horizontal" android:layout_marginBottom="10px">
+        <ImageView android:id="@+id/SettingDialogTitleIcon"
+            android:src="@drawable/voice_search_plugin_icon" android:layout_height="48dip" android:layout_width="48dip"></ImageView>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/SettingDialogTitleText"
+            android:layout_gravity="center_vertical" android:text="@string/plugin_name">
+        </TextView>
+    </LinearLayout>
+    <!-- 
+    <Spinner android:layout_height="wrap_content"
+        android:id="@+id/SettingDialogLangSpinner"
+        android:layout_width="fill_parent" ></Spinner>
+     -->
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/SettingDialogInsertSpace">
+        <CheckBox android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/insert_space"
+            android:id="@+id/SettingDialogInsertSpaceCheckbox">
+        </CheckBox>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/SettingDialogConfirmDialog">
+        <CheckBox android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/confirm_dialog"
+            android:id="@+id/SettingDialogConfirmDialogCheckbox">
+        </CheckBox>
+    </LinearLayout>
+</LinearLayout>

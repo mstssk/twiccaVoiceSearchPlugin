@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">twicca Voice Search plug-in</string>
+	<string name="dialog_title">Google Voice Search is not installed.</string>
+	<string name="dialog_message">Do you want to install now?</string>
+	<string name="plugin_name">Voice Search</string>
+	<string name="recognizing_message">Speak out loud!</string>
+	<string name="insert_space">Separate words with spaces.</string>
+	<string name="confirm_dialog">Show confirm dialog.</string>
+	<string name="retry">Retry</string>
+	<string name="recognition_result">Result</string>
+</resources>
